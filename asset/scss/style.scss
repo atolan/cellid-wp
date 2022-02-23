@@ -1,0 +1,47 @@
+@import './base';
+// @import './inner';
+@import './footer';
+
+#home {
+  @import './home';
+}
+
+#header {
+  @import './header';
+}
+
+#company {
+  @import './company';
+}
+
+#contact {
+  @import './contact';
+}
+
+#software {
+  @import './software';
+}
+
+#hardware {
+  @import './hardware';
+}
+
+#news {
+  @import './news';
+}
+
+#career {
+  @import './career';
+}
+
+#thanks {
+  @import './thanks';
+}
+
+#privacy {
+  @import './privacy';
+}
+
+#pageNotFound {
+  @import './404';
+}
