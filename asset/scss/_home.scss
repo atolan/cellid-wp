@@ -1,0 +1,170 @@
+.mv {
+  background-image: url(../img/home/mv_pc.png);
+  min-height: 50.52083333333333vw;
+  background-size: 101%;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+
+  &-box {
+    padding: 280px 160px 100px 160px;
+    position: relative;
+    z-index: 100;
+    color: white;
+
+    &-ttl {
+      font-size: 6.6rem;
+      font-family: 'sfProDisplay';
+      font-weight: 400;
+      margin: 0;
+      line-height: 1.2;
+      span {
+        -webkit-text-stroke: 2px;
+      }
+    }
+
+    &-txt {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin: 4rem 0;
+      text-align: left;
+    }
+  }
+}
+.swiper {
+  background-color: #000;
+  &-pagination {
+    display: none;
+  }
+}
+.mv.section01 {
+  background-image: url(../img/home/module_pc.jpg);
+}
+
+.mv.section02 {
+  background-image: url(../img/home/slam_pc.png);
+}
+
+.mv.section03 {
+  background-image: url(../img/home/company_pc.png);
+}
+
+@media (min-width: 1921px) {
+  .mv {
+    background-size: contain;
+    background-position: unset;
+    &-box {
+      &-ttl {
+        font-size: 85px;
+      }
+      &-txt {
+        font-size: 24px;
+      }
+    }
+  
+    &-feature {
+      &-part {
+        .feature-ttl {
+          font-size: 64px;
+        }
+        .feature-txt {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .mv {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mv {
+    &-box {
+      padding-left: 120px;
+      padding-right: 120px;
+      padding-top: 180px;
+
+      &-ttl {
+        font-size: 50px;
+      }
+  
+      &-txt {
+        font-size: 16px;
+        margin: 30px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .mv {
+    background-image: url(../img/home/mv_sp.png);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    &-box {
+      padding-top: 150px;
+      padding-left: 100px;
+      padding-right: 100px;
+      &-ttl {
+        font-size: 36px;
+        span {
+          -webkit-text-stroke: 1px;
+        }
+      }
+  
+      &-txt {
+        font-size: 16px;
+        margin: 40px 0;
+      }
+    }
+  }
+  .mv.section01 {
+    background-image: url(../img/home/module_sp.jpg);
+  }
+  .mv.section02 {
+    background-image: url(../img/home/slam_sp.png);
+  }
+  .mv.section03 {
+    background-image: url(../img/home/company_sp.png);
+  }
+}
+@media (max-width: 575px) {
+  .mv {
+    &-box {
+      padding-left: 9vw;
+      padding-right: 9vw;
+      width: 82vw;
+      position: absolute;
+      bottom: 0;
+      padding-bottom: 90px;
+      &-ttl {
+        font-size: 9.2vw;
+        text-align: left;
+      }
+      &-txt {
+        font-size: 4vw;
+        margin: 30px 0;
+      }
+    }
+  }
+  .mv.main {
+    .mv-box {
+      bottom: 60px;
+    }
+  }
+}
+@media (max-width: 374px) {
+  .mv {
+    &-box {
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 90px;
+    }
+  }
+}

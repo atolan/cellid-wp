@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+$xsInner: 300px;
+$spInner: 355px;
+$pcInner: 1440px;
+
+.inner {
+  margin: 0 auto;
+  width: 90%;
+  max-width: $xsInner;
+  @media (max-width: 375px) {
+    max-width: $spInner;
+  }
+  @media (min-width: 768px) {
+    // max-width: $pcInner;
+    max-width: 82.15%;
+  }
+}
